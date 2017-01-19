@@ -1,0 +1,32 @@
+.panel {
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  overflow: auto;
+}
+
+
+.left-panel {
+  background-color: $blue-grey;
+  width: 30%;
+  left: 0;
+  padding: 30px;
+}
+
+.middle-panel {
+  background-color: $neutral-grey;
+  width: 40%;
+  left: 30%;
+}
+
+.right-panel {
+  background-color: white;
+  width: 30%;
+  right: 0;
+}
+
+.double-panel {
+  background-color: $neutral-grey;
+  width: 70%;
+  right: 0;
+}

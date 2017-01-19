@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300");
+@font-face {
+  font-family: 'Octanis';
+  src: url("/fonts/Octanis-Sans.otf") format("embedded-opentype"), url("/fonts/octanis-sans-webfont.woff"), format("woff"), url("/fonts/oactanis-sans-webfont.woff2"), format("woff2"); }
+body {
+  font-family: "Octanis", "Helvetica Neue", sans-serif;
+  letter-spacing: 3px;
+  color: 'black'; }
+
+.panel {
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  overflow: auto; }
+
+.left-panel {
+  background-color: #c9cfd4;
+  width: 30%;
+  left: 0;
+  padding: 30px; }
+
+.middle-panel {
+  background-color: #f6f6f6;
+  width: 40%;
+  left: 30%; }
+
+.right-panel {
+  background-color: white;
+  width: 30%;
+  right: 0; }
+
+.double-panel {
+  background-color: #f6f6f6;
+  width: 70%;
+  right: 0; }
+
+.user-greeting {
+  font-size: 60px;
+  color: white;
+  text-transform: uppercase;
+  margin: 20px 0px;
+  padding: 0px 20px;
+  padding-bottom: 15px;
+  border-bottom: solid 1px white;
+  line-height: 115%;
+  letter-spacing: 6px; }
+
+.notification-name {
+  font-size: 16px;
+  color: #6d6e71;
+  text-transform: uppercase;
+  margin: 20px 0; }
+
+.notification-box {
+  padding: 7px; }
+
+.notification-box.dark {
+  background-color: #a7a9ac; }
+
+.notification-box.light {
+  background-color: #f6f6f6; }
+
+.notification-title {
+  font: 14px;
+  line-height: 120%;
+  text-transform: uppercase; }
+
+.notification-info {
+  font-family: "Source Sans Pro", "Helvetica Neue", sans-serif;
+  font-size: 12px;
+  letter-spacing: 0;
+  margin-top: 5px; }
+
+.notification-info.dark, .notification-title.dark {
+  color: white; }
+
+.notification-info.light, .notification-title.light {
+  text-transform: none;
+  color: #6d6e71; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,33 @@
+// -------- Colors ---------------
+
+$blue-grey: rgb(201, 207, 212);
+$neutral-grey: rgb(246, 246, 246);
+$grey30: rgb(188, 190, 192);
+$grey50: rgb(147, 149, 152);
+$grey40: rgb(167, 169, 172);
+$grey70: rgb(109, 110, 113);
+
+// ------- Fonts -----------------
+
+@font-face {
+  font-family: 'Octanis';
+  src: url('/fonts/Octanis-Sans.otf') format('embedded-opentype'),
+  url('/fonts/octanis-sans-webfont.woff'), format('woff'),
+  url('/fonts/oactanis-sans-webfont.woff2'), format('woff2');
+}
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300');
+
+$display-font: 'Octanis', 'Helvetica Neue', sans-serif;
+$body-font: 'Source Sans Pro', 'Helvetica Neue', sans-serif;
+
+// -----------------------------------
+
+body {
+  font-family: $display-font;
+  letter-spacing: 3px;
+  color: 'black';
+}
+
+@import "partials/panels";
+@import "partials/activity-panel";
