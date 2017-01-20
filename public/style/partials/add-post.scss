@@ -1,0 +1,52 @@
+
+.form-title {
+  font-size: 48px;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  color: $grey70;
+}
+
+.input-title {
+  text-transform: uppercase;
+  color: $grey70;
+  margin: 40px 0 20px;
+  letter-spacing: 1px;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+.add-post-content {
+  width: 100%;
+  height: 200px;
+}
+
+// .text-area, .text-input, .select-box, .file-input {
+//   display: block;
+// }
+//
+// .text-input {
+//   border: none;
+//   border-bottom: solid 1px $grey70;
+//   text-transform: uppercase;
+//   font-size: 18px;
+//   font-family: $display-font;
+//   color: $grey70;
+//   width: 80%;
+//   margin-bottom: 20px;
+//   &:focus {
+//     outline: none;
+//     outline-offset: none;
+//     border-bottom: solid 2px black;
+//   }
+// }
+//
+// .select-box {
+//   width: 80%;
+//   border: solid 1px $grey70;
+//   border-image: none;
+//   border-radius: 0;
+//   -webkit-border-radius: 0;
+//   -webkit-appearance: none;
+// }
