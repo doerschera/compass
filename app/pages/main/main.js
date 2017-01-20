@@ -1,5 +1,6 @@
 import React from 'react';
 import ActivityPanel from './components/activity-panel';
+import PostFeed from './components/PostFeed';
 
 export default class Main extends React.Component {
 
@@ -7,6 +8,7 @@ export default class Main extends React.Component {
     return (
       <div>
         <ActivityPanel />
+        <PostFeed />
       </div>
     )
   }

@@ -11,27 +11,27 @@ body {
   height: 100vh;
   position: absolute;
   top: 0;
-  overflow: auto; }
+  overflow: auto;
+  padding: 30px; }
 
 .left-panel {
   background-color: #c9cfd4;
-  width: 30%;
-  left: 0;
-  padding: 30px; }
+  width: 23%;
+  left: 0; }
 
 .middle-panel {
   background-color: #f6f6f6;
-  width: 40%;
-  left: 30%; }
+  width: 42%;
+  left: 27.5%; }
 
 .right-panel {
   background-color: white;
-  width: 30%;
+  width: 35%;
   right: 0; }
 
 .double-panel {
   background-color: #f6f6f6;
-  width: 70%;
+  width: 77%;
   right: 0; }
 
 .user-greeting {
@@ -52,7 +52,14 @@ body {
   margin: 20px 0; }
 
 .notification-box {
-  padding: 7px; }
+  padding: 7px;
+  position: relative; }
+  .notification-box i {
+    position: absolute;
+    right: -9px;
+    top: -9px;
+    font-size: 18px;
+    color: #6d6e71; }
 
 .notification-box.dark {
   background-color: #a7a9ac; }
@@ -76,6 +83,66 @@ body {
 
 .notification-info.light, .notification-title.light {
   text-transform: none;
-  color: #6d6e71; }
+  color: #939598; }
+
+.post-panel {
+  margin: auto;
+  margin-top: 50px;
+  background-color: white;
+  -webkit-box-shadow: 10px 10px 5px 0px #939598;
+  -moz-box-shadow: 10px 10px 5px 0px #939598;
+  box-shadow: 10px 10px 5px 0px #939598;
+  width: 80%;
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  overflow: auto; }
+
+.feed-post {
+  height: 350px;
+  overflow: hidden;
+  padding-bottom: 25px; }
+
+.circle-image {
+  height: 75px;
+  width: 75px;
+  border-radius: 100%;
+  overflow: hidden;
+  position: relative;
+  display: inline-block; }
+  .circle-image img {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+
+.post-title {
+  height: 75px;
+  margin-bottom: 30px; }
+  .post-title h3, .post-title h5 {
+    text-transform: uppercase;
+    padding: 0 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 300px; }
+  .post-title h3 {
+    font-size: 36px;
+    margin-bottom: 5px; }
+  .post-title h5 {
+    font-size: 24px;
+    color: #6d6e71; }
+
+.post-body p {
+  margin: auto;
+  font-family: "Source Sans Pro", "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  letter-spacing: 0;
+  padding: 0 20px; }
+.post-body img {
+  margin: 20px;
+  width: 90%; }
 
 /*# sourceMappingURL=style.css.map */

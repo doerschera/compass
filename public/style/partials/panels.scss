@@ -3,30 +3,30 @@
   position: absolute;
   top: 0;
   overflow: auto;
+  padding: 30px;
 }
 
 
 .left-panel {
   background-color: $blue-grey;
-  width: 30%;
+  width: 23%;
   left: 0;
-  padding: 30px;
 }
 
 .middle-panel {
   background-color: $neutral-grey;
-  width: 40%;
-  left: 30%;
+  width: 42%;
+  left: 27.5%;
 }
 
 .right-panel {
   background-color: white;
-  width: 30%;
+  width: 35%;
   right: 0;
 }
 
 .double-panel {
   background-color: $neutral-grey;
-  width: 70%;
+  width: 77%;
   right: 0;
 }

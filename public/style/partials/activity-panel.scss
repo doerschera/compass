@@ -20,6 +20,14 @@
 
 .notification-box {
   padding: 7px;
+  position: relative;
+  i {
+    position: absolute;
+    right: -9px;
+    top: -9px;
+    font-size: 18px;
+    color: $grey70;
+  }
 }
 
 .notification-box.dark {
@@ -49,5 +57,5 @@
 
 .notification-info.light, .notification-title.light {
   text-transform: none;
-  color: $grey70;
+  color: $grey50;
 }
