@@ -1,0 +1,41 @@
+
+.comment-panel {
+  width: 45%;
+  position: relative;
+  left: 56%;
+  height: 450px;
+  overflow: auto;
+}
+
+.comment-container {
+  display: flex;
+  flex-direction: row;
+  &:nth-child(even) {
+    margin: 20px 0;
+    flex-direction: row-reverse;
+  }
+}
+
+.comment {
+  width: 300px;
+  background-color: $grey50;
+  margin-left: 15px;
+  padding: 15px;
+  p {
+    color: white;
+  }
+  .comment-body {
+    font-size: 14px;
+    font-family: $body-font;
+    letter-spacing: 1px;
+  }
+  .comment-title {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+  }
+  &:nth-child(even) {
+    margin-left: 0;
+    margin-right: 15px;
+  }
+}
