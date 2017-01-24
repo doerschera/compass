@@ -31,8 +31,11 @@ body {
 
 .double-panel {
   background-color: #f6f6f6;
-  width: 77%;
-  right: 0; }
+  width: 69.5%;
+  right: 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row; }
 
 .user-greeting {
   font-size: 60px;
@@ -99,6 +102,23 @@ body {
   flex-direction: row;
   overflow: auto; }
 
+.post-container {
+  width: 50%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: white;
+  padding: 30px 15px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  overflow: auto; }
+
+.full-post {
+  width: 100%;
+  margin-top: 30px; }
+
 .feed-post {
   height: 350px;
   overflow: hidden;
@@ -110,7 +130,8 @@ body {
   border-radius: 100% !important;
   overflow: hidden;
   position: relative;
-  display: inline-block; }
+  display: inline-block;
+  z-index: 1; }
   .circle-image img {
     width: 100%;
     position: absolute;

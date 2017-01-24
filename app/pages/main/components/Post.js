@@ -1,9 +1,9 @@
 import React from 'react';
 
-export default class PostPreview extends React.Component {
+export default class Post extends React.Component {
   render() {
     return (
-      <div className="post-panel feed-post">
+      <div className= {this.props.postType}>
         <div className="circle-image">
           <img src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAgcAAAAJDU1MmE0NDJiLWYyMzYtNDljMy1iZTQzLTZjYzY1ZGI2NmVhNw.jpg"></img>
         </div>

@@ -27,6 +27,9 @@
 
 .double-panel {
   background-color: $neutral-grey;
-  width: 77%;
+  width: 69.5%;
   right: 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
