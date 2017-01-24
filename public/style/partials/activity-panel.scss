@@ -1,0 +1,61 @@
+
+.user-greeting {
+  font-size: 60px;
+  color: white;
+  text-transform: uppercase;
+  margin: 20px 0px;
+  padding: 0px 20px;
+  padding-bottom: 15px;
+  border-bottom: solid 1px white;
+  line-height: 115%;
+  letter-spacing: 6px;
+}
+
+.notification-name {
+  font-size: 16px;
+  color: $grey70;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+.notification-box {
+  padding: 7px;
+  position: relative;
+  i {
+    position: absolute;
+    right: -9px;
+    top: -9px;
+    font-size: 18px;
+    color: $grey70;
+  }
+}
+
+.notification-box.dark {
+  background-color: $grey40;
+}
+
+.notification-box.light {
+  background-color: $neutral-grey;
+}
+
+.notification-title {
+  font: 14px;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+
+.notification-info {
+  font-family: $body-font;
+  font-size: 12px;
+  letter-spacing: 0;
+  margin-top: 5px;
+}
+
+.notification-info.dark, .notification-title.dark {
+  color: white;
+}
+
+.notification-info.light, .notification-title.light {
+  text-transform: none;
+  color: $grey50;
+}

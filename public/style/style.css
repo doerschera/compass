@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300");
+@font-face {
+  font-family: 'Octanis';
+  src: url("/fonts/Octanis-Sans.otf") format("embedded-opentype"), url("/fonts/octanis-sans-webfont.woff"), format("woff"), url("/fonts/oactanis-sans-webfont.woff2"), format("woff2"); }
+body {
+  font-family: "Octanis", "Helvetica Neue", sans-serif;
+  letter-spacing: 3px;
+  color: 'black'; }
+
+.panel {
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  overflow: auto;
+  padding: 30px; }
+
+.left-panel {
+  background-color: #c9cfd4;
+  width: 21%;
+  left: 0; }
+
+.middle-panel {
+  background-color: #f6f6f6;
+  width: 42%;
+  left: 25.5%; }
+
+.right-panel {
+  background-color: white;
+  width: 23%;
+  right: 0; }
+
+.double-panel {
+  background-color: #f6f6f6;
+  width: 77%;
+  right: 0; }
+
+.user-greeting {
+  font-size: 60px;
+  color: white;
+  text-transform: uppercase;
+  margin: 20px 0px;
+  padding: 0px 20px;
+  padding-bottom: 15px;
+  border-bottom: solid 1px white;
+  line-height: 115%;
+  letter-spacing: 6px; }
+
+.notification-name {
+  font-size: 16px;
+  color: #6d6e71;
+  text-transform: uppercase;
+  margin: 20px 0; }
+
+.notification-box {
+  padding: 7px;
+  position: relative; }
+  .notification-box i {
+    position: absolute;
+    right: -9px;
+    top: -9px;
+    font-size: 18px;
+    color: #6d6e71; }
+
+.notification-box.dark {
+  background-color: #a7a9ac; }
+
+.notification-box.light {
+  background-color: #f6f6f6; }
+
+.notification-title {
+  font: 14px;
+  line-height: 120%;
+  text-transform: uppercase; }
+
+.notification-info {
+  font-family: "Source Sans Pro", "Helvetica Neue", sans-serif;
+  font-size: 12px;
+  letter-spacing: 0;
+  margin-top: 5px; }
+
+.notification-info.dark, .notification-title.dark {
+  color: white; }
+
+.notification-info.light, .notification-title.light {
+  text-transform: none;
+  color: #939598; }
+
+.post-panel {
+  margin: auto;
+  margin-top: 50px;
+  background-color: white;
+  -webkit-box-shadow: 10px 10px 5px 0px #939598;
+  -moz-box-shadow: 10px 10px 5px 0px #939598;
+  box-shadow: 10px 10px 5px 0px #939598;
+  width: 80%;
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  overflow: auto; }
+
+.feed-post {
+  height: 350px;
+  overflow: hidden;
+  padding-bottom: 25px; }
+
+.circle-image {
+  height: 75px;
+  width: 75px;
+  border-radius: 100% !important;
+  overflow: hidden;
+  position: relative;
+  display: inline-block; }
+  .circle-image img {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+
+.post-title {
+  height: 75px;
+  margin-bottom: 30px; }
+  .post-title h3, .post-title h5 {
+    text-transform: uppercase;
+    padding: 0 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 300px; }
+  .post-title h3 {
+    font-size: 36px;
+    margin-bottom: 5px; }
+  .post-title h5 {
+    font-size: 24px;
+    color: #6d6e71; }
+
+.post-body p {
+  margin: auto;
+  font-family: "Source Sans Pro", "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  letter-spacing: 0;
+  padding: 0 20px; }
+.post-body img {
+  margin: 20px;
+  width: 90%; }
+
+.form-title {
+  font-size: 48px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  color: #6d6e71; }
+
+.input-title {
+  text-transform: uppercase;
+  color: #6d6e71;
+  margin: 40px 0 20px;
+  letter-spacing: 1px; }
+
+textarea:focus {
+  outline: none; }
+
+.add-post-content {
+  width: 100%;
+  height: 200px; }
+
+/*# sourceMappingURL=style.css.map */
